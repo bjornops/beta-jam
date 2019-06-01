@@ -18,14 +18,12 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
         {posts.map(({ node }) => {
           const {
             id,
-            excerpt: autoExcerpt,
             frontmatter: {
               title,
               date,
               path,
               author,
               coverImage,
-              excerpt,
               tags,
             },
           } = node
@@ -39,7 +37,6 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
               author={author}
               coverImage={coverImage}
               tags={tags}
-              excerpt={excerpt || autoExcerpt}
             />
           )
         })}
@@ -80,7 +77,6 @@ export const postsQuery = graphql`
             date(formatString: "DD MMMM YYYY")
             path
             author
-            excerpt
             tags
             coverImage {
               childImageSharp {

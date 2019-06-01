@@ -8,8 +8,8 @@ const postCSSMixins = require('postcss-mixins')
 module.exports = {
   siteMetadata: {
     title: `Let's JAM`,
-    description: `A simple starter for Gatsby. That's it.`,
-    copyrights: '',
+    description: `A small page with some tabs`,
+    copyrights: 'Bjørn Opstad, 2019',
     author: `Bjørn Opstad`,
     logo: {
       src: '',
@@ -27,8 +27,8 @@ module.exports = {
       },
       {
         title: 'Tabs',
-        path: '/tabs',
-      },
+        path: '/tag/tabs',
+      }
     ],
   },
   plugins: [
@@ -38,21 +38,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/content/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/src/content/posts`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/src/content/pages`,
       },
     },
     {
