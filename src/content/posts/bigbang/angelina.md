@@ -3,11 +3,10 @@ title: "Angelina"
 path: "/tabs/bigbang/angelina"
 date: "2007"
 author: "Bigbang"
-excerpt: 'and then you call me up when I’m down'
-tags: ["bigbang", "too much yang"]
+tags: ["bigbang", "too much yang", "tabs"]
 ---
 
-## Angelina
+## Chords
 
 ```
 C               A                   Em

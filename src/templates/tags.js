@@ -27,14 +27,12 @@ const Tags = ({
         {posts.map(({ node }) => {
           const {
             id,
-            excerpt: autoExcerpt,
             frontmatter: {
               title,
               date,
               path,
               author,
               coverImage,
-              excerpt,
               tags,
             },
           } = node
@@ -48,16 +46,15 @@ const Tags = ({
               author={author}
               tags={tags}
               coverImage={coverImage}
-              excerpt={excerpt || autoExcerpt}
             />
           )
         })}
 
         <Navigation
           previousPath={previousPagePath}
-          previousLabel="Newer posts"
+          previousLabel="Newer"
           nextPath={nextPagePath}
-          nextLabel="Older posts"
+          nextLabel="Older"
         />
       </Layout>
     </>
@@ -89,7 +86,6 @@ export const postsQuery = graphql`
             date(formatString: "DD MMMM YYYY")
             path
             author
-            excerpt
             tags
             coverImage {
               childImageSharp {
