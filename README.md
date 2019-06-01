@@ -16,6 +16,7 @@ This starter is pretty basic and covers all of the essentials. All you have to d
 - responsive youtube/vimeo etc. videos [gatsby-remark-embed-video](https://github.com/borgfriend/gatsby-remark-embed-video)
 - fully responsive site
 
+
 #### Code highlighting
 
 By default the theme is using PrismJS to color your code syntax. All you need to do is to wrap you code like this:
@@ -31,6 +32,16 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 ## How to start
 
 First you need to clone this repo by `git clone https://github.com/panr/gatsby-starter-hello-friend.git` then switch to main dir, probably `cd gatsby-starter-hello-friend` should work fine. Next you should install all dependencies by `yarn` and then, to run starter on localhost `yarn dev` (which is `gatsby clean && gatsby develop`). If you want to build starter just run `yarn build` (which is `gatsby build`).
+
+### Setup
+
+1. Install:
+   1. `npm`
+   2. `gatsby`
+   3. `yarn`
+2. Run `npm install`
+
+Use `yarn dev` to use live development locally.
 
 ## How it works
 
