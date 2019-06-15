@@ -20,7 +20,8 @@ E-----------------------0---
 ### Chords
 ```
 Intro/main: Em C Em
-Ref: 
+
+Ref:
 Bm E A 
 F Dm Am G
 F E Am
