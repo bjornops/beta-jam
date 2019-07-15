@@ -57,7 +57,7 @@ was to make me think i could be like you
 
 
 Bm    E
-Im in [...]
+I'm in [...]
 A                            F
 You know now just where I've been
 F           Dm                    Am
@@ -81,8 +81,8 @@ Used to feel so good just wasting time
 Em               C                    Em
 We used to go so fast, used to get so high
 
-Em              C                  Em
-As beautifully float like butterflies
+Em             C                  Em
+And skilfully float like butterflies
 G         Am                    C
 throw our punches at the open sky
 
@@ -97,12 +97,12 @@ I need you whispering behind me
 
 F        Dm          Am
 Once I step into the light
-Am              G                    F
-I [possess] the shadows that I fight
+Am           G                  F
+Opposite the shadows that I fight
 F            Dm                      Am
 My hands can hit but my eyes can't see
 Am               G                                F
-They won't take [count] as long as you're with me
+They won't take count as long as you're with me
 F                    Dm                    Am
 So there's a million reasons I should call
 Am            G                       F
