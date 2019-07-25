@@ -105,5 +105,4 @@ You never taught me how to fa-all
 
 [Outro]
 Am Am F Dm
-
 ```
